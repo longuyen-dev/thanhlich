@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1065900566593",
+    "firebase_url": "https://thanhlich-8b556.firebaseio.com",
+    "project_id": "thanhlich-8b556",
+    "storage_bucket": "thanhlich-8b556.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065900566593:android:1ebba1490751b862df3ec0",
+        "android_client_info": {
+          "package_name": "com.fpt.longnh42.thanhlich"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065900566593-9mjli3v4mudf75snnr6scb4ge45noiol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVCvP_ss3_mvq55k8bU_sQuIBJz0XwKyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065900566593-9mjli3v4mudf75snnr6scb4ge45noiol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

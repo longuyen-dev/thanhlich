@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fpt.longnh42.thanhlich">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".rowAdapter.RowDetailInvoiceAdapter"></activity>
+        <activity android:name=".DetailInvoiceActivity" />
+        <activity android:name=".AddItemActivity" />
+        <activity android:name=".rowAdapter.RowTableOfChefAdapter" />
+        <activity android:name=".ChefActivity" />
+        <activity android:name=".rowAdapter.RowChefAdapter" />
+        <activity android:name=".ChefFragment" />
+        <activity android:name=".rowAdapter.RowListItemAdapter" />
+        <activity android:name=".ItemFragment" />
+        <activity android:name=".rowAdapter.RowEmpAdapter" />
+        <activity android:name=".EmployeeFragment" />
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".rowAdapter.RowInvoiceAdapter" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".rowAdapter.RowItemAdapter" />
+        <activity android:name=".rowAdapter.RowCategoryAdapter" />
+        <activity android:name=".rowAdapter.RowOrderAdapter" />
+        <activity
+            android:name=".OrderActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".rowAdapter.RowTableAdapter" />
+        <activity android:name=".StatisticalFragment" />
+        <activity android:name=".TableFragment" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeFragment"
+    android:background="@color/applicationBackground">
+
+    <LinearLayout
+        android:id="@+id/employeeControllerLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <EditText
+            android:id="@+id/employeeNameEditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_weight="2"
+            android:layout_margin="2dp"/>
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_weight="2"
+            android:layout_margin="2dp"/>
+        <Button
+            android:id="@+id/changeButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/corner_grid_second_color"
+            android:text="@string/save"
+            android:layout_margin="2dp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/employeeListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:smoothScrollbar="true"
+        android:layout_below="@+id/employeeControllerLinearLayout"
+        android:focusable="true" />
+</RelativeLayout>

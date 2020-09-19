@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33333D">
+    <TextView
+        android:id="@+id/chefOptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/allTable"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginTop="2dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chefOptionTextView"
+        android:weightSum="10"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <GridView
+            android:id="@+id/chefGridView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:numColumns="1"
+            android:layout_margin="5dp"/>
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:background="#FF4181"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/allChefButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/allTable"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/corner_grid_second_color"/>
+            <Button
+                android:id="@+id/onlyNewsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/news"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/corner_grid_main_color"/>
+            <Button
+                android:id="@+id/onlyDoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/done"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/corner_grid_main_color"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

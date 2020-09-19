@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_table"
+            android:title="@string/table"
+            android:icon="@drawable/meeting"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_chef"-->
+<!--            android:title="@string/chef"-->
+<!--            android:icon="@drawable/chef"/>-->
+        <item
+            android:id="@+id/nav_statistical"
+            android:title="@string/statistical"
+            android:icon="@drawable/finance"/>
+        <item
+            android:id="@+id/nav_item"
+            android:title="@string/item"
+            android:icon="@drawable/item"/>
+        <item
+            android:id="@+id/nav_employee"
+            android:title="@string/employee"
+            android:icon="@drawable/employee"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/logout"/>
+    </group>
+
+</menu>

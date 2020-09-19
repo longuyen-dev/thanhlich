@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner_grid_main_color"
+    android:padding="2dp"
+    android:weightSum="3">
+    <TextView
+        android:id="@+id/itemNameTextView"
+        android:textColor="@color/white"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:text="asd"
+        android:layout_height="wrap_content"
+        android:padding="3dp"/>
+    <TextView
+        android:id="@+id/priceTextView"
+        android:textColor="@color/white"
+        android:layout_width="0dp"
+        android:text="asd"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="3dp"/>
+</LinearLayout>

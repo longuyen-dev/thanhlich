@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ThanhLich</string>
+
+    <string name="login">Đăng nhập</string>
+
+    <string name="table">Bàn</string>
+    <string name="item">Món ăn</string>
+    <string name="chef">Bếp</string>
+    <string name="statistical">Thống kê</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="employee">Nhân viên</string>
+
+    <string name="drink">Đồ uống</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="allTable">Tất cả</string>
+    <string name="onlyOnTable">Đang mở</string>
+    <string name="onlyOffTable">Đóng</string>
+    <string name="takeAway">Mang về</string>
+
+    <string name="ordering">Đang ghi</string>
+    <string name="ordered">Đã ghi</string>
+    <string name="save">Ghi</string>
+    <string name="saveAndPrint">Ghi &amp; In</string>
+    <string name="pay">Thanh toán</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xoá</string>
+
+    <string name="quantum">Số lượng</string>
+    <string name="amount">Tổng tiền</string>
+
+    <string name="today">Hôm nay</string>
+    <string name="yesterday">Hôm qua</string>
+
+    <string name="invalidEmp">Tài khoản chưa đăng ký</string>
+    <string name="invalidPass">Sai mật khẩu</string>
+    <string name="notRule">Không có quyền truy cập</string>
+    <string name="cantMinus">Không thể trừ</string>
+
+    <string name="notEmpty">Không được để trống</string>
+    <string name="notPrinter">Không tìm thấy máy in</string>
+    <string name="admin">lich</string>
+    <string name="editSuccess">Sửa thành công</string>
+    <string name="addSuccess">Thêm thành công</string>
+
+    <string name="news">Mới</string>
+    <string name="done">Xong</string>
+
+    <string name="category">Nhóm</string>
+    <string name="price">Giá</string>
+    <string name="add">Thêm</string>
+</resources>
